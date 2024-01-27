@@ -19,4 +19,4 @@ Max comparisons per item: 34\
 Stats of sorting 100 items:\
 Time taken: 1 second (print disabled)\
 Comparisons: 793\
-Max comparisons per item: 16\
+Max comparisons per item: 16
