@@ -6,7 +6,7 @@ I came up with the idea of starting this project while I was sorting a deck of c
 \
 Note: The print statements make this code really slow.\
 \
-Stats of sorting 10,000:\
+Stats of sorting 10,000 items:\
 It takes about 1 minute (print disabled)\
 Comparisons: 218,497\
 Max comparisons per item: 47
