@@ -90,8 +90,9 @@ def tournament_sort(l):
     l_sorted2.reverse()
     return l_sorted2, comparisons, max_comperisons_per_item
 
-
-random_numbers = [(i, str(i)) for i in range(30)]
+count = 10
+random_numbers = [(i, str(i)) for i in range(count)]
+random.shuffle(random_numbers)
 l_sorted = tournament_sort(random_numbers)
 print("is sorted:", is_sorted(l_sorted[0]))
 print("comparisons:", l_sorted[1])
